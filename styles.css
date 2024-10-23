@@ -1,0 +1,63 @@
+body {
+    color: #070606;
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    font-family: "Sacramento", cursive;
+    margin-bottom: 120px;
+}
+
+header {
+    border-bottom: solid 2px rgb(21, 22, 24);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.chamada {
+ background: rgb(248, 247, 247);
+ padding-bottom: 80px;
+ padding-top: 80px;
+ display: flex;
+ justify-content: center;
+}
+
+section {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+   font-size: 20px;
+}
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 11px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+ opacity: 0.5;
+ height: 200px;
+}
+
+.categoria-videos img:hover {
+ opacity: 1.0;
+ border: 1px solid rgb(245, 243, 243);
+}
+
+.categoria h2 {
+    color: rgb(241, 242, 245);
+}
